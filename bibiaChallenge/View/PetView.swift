@@ -8,6 +8,46 @@
 import Foundation
 import SwiftUI
 
+// view
+struct PetView: View {
+    @Environment(\.dismiss) private var dismiss
+
+    var isActive = false
+    var meloMood: meloMood // dps vai ser binding
+    
+    var formulas: [PetActionFormula] = [
+        PetActionFormula(action: {}, color: 0, text: "Food \n 23"),
+        PetActionFormula(action: {}, color: 1, text: "Play!"),
+        PetActionFormula(action: {}, color: 2, text: "Talk!")
+    ]
+    
+    var body: some View {
+        ZStack {
+            VStack {
+                HStack(spacing: 90) {
+                    homeBtn(dismiss: dismiss)
+                    Image("Pet header")
+                    Spacer()
+                }
+                .frame(width: 704.62)
+                Spacer()
+                HStack(spacing: 102) {
+                    PetActionButton(isActive: isActive, formula: formulas[0])
+                    PetActionButton(isActive: isActive, formula: formulas[1])
+                    PetActionButton(isActive: isActive, formula: formulas[2])
+                }
+                
+            }.background(
+                Image("Pet wallpaper")
+                    .scaledToFit()
+            )
+            meloMood
+        }.navigationBarBackButtonHidden(true)
+    }
+
+}
+
+// enum para alterar mood do sprite
 enum meloMood: View {
     case happy, smiling, sad, angry, crazy1, crazy2
     
@@ -30,41 +70,6 @@ enum meloMood: View {
         
         case .crazy2:
             return Image("melo-crazy2")
-        }
-    }
-}
-
-struct PetView: View {
-    var isActive = false
-    var meloMood: meloMood // dps vai ser binding
-    
-    var formulas: [PetActionFormula] = [
-        PetActionFormula(action: {}, color: 0, text: "Food \n 23"),
-        PetActionFormula(action: {}, color: 1, text: "Play!"),
-        PetActionFormula(action: {}, color: 2, text: "Talk!")
-    ]
-    
-    var body: some View {
-        ZStack {
-            VStack {
-                HStack(spacing: 90) {
-                    Button(action: {}, label: {
-                        Image("backhome icon").frame(width: 131, height: 131)})
-                    Image("Pet header")
-                    Spacer()
-                }
-                .frame(width: 704.62)
-                Spacer()
-                HStack(spacing: 102) {
-                    PetActionButton(isActive: isActive, formula: formulas[0])
-                    PetActionButton(isActive: isActive, formula: formulas[1])
-                    PetActionButton(isActive: isActive, formula: formulas[2])
-                }
-                
-            }.background(
-                Image("Pet wallpaper")
-            )
-            meloMood
         }
     }
 }

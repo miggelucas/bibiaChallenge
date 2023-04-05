@@ -19,6 +19,8 @@
 		D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4529DDEE01008E6330 /* ChatOption.swift */; };
 		D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4729DDEE60008E6330 /* PetView.swift */; };
 		D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */; };
+		D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4B29DDFA63008E6330 /* TestHome.swift */; };
+		D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4E29DDFE08008E6330 /* homeBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		D4B47A4529DDEE01008E6330 /* ChatOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOption.swift; sourceTree = "<group>"; };
 		D4B47A4729DDEE60008E6330 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
 		D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetActionButton.swift; sourceTree = "<group>"; };
+		D4B47A4B29DDFA63008E6330 /* TestHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHome.swift; sourceTree = "<group>"; };
+		D4B47A4E29DDFE08008E6330 /* homeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,10 @@
 		17E4EB1729DDCAF0006579D7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				17E4EB1229DDB512006579D7 /* DontBuyView.swift */,
+				D4B47A4B29DDFA63008E6330 /* TestHome.swift */,
 				D4B47A4729DDEE60008E6330 /* PetView.swift */,
-				17E4EB0B29DDAA8D006579D7 /* MinigameOverView.swift */,
+				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
+				D4B47A4D29DDFA66008E6330 /* Modais */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +120,15 @@
 				D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		D4B47A4D29DDFA66008E6330 /* Modais */ = {
+			isa = PBXGroup;
+			children = (
+				17E4EB1229DDB512006579D7 /* DontBuyView.swift */,
+				17E4EB0B29DDAA8D006579D7 /* MinigameOverView.swift */,
+			);
+			path = Modais;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +210,9 @@
 				D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */,
 				17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */,
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
+				D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */,
 				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
+				D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
