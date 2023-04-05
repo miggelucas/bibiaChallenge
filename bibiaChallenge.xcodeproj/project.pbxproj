@@ -15,6 +15,10 @@
 		17E4EB1029DDB212006579D7 /* Daydream.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB0F29DDB212006579D7 /* Daydream.ttf */; };
 		17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EB1229DDB512006579D7 /* DontBuyView.swift */; };
 		17E4EB1529DDB86B006579D7 /* Pixellari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB1429DDB86A006579D7 /* Pixellari.ttf */; };
+		D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4329DDEDF0008E6330 /* Message.swift */; };
+		D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4529DDEE01008E6330 /* ChatOption.swift */; };
+		D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4729DDEE60008E6330 /* PetView.swift */; };
+		D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		17E4EB0F29DDB212006579D7 /* Daydream.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Daydream.ttf; sourceTree = "<group>"; };
 		17E4EB1229DDB512006579D7 /* DontBuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DontBuyView.swift; sourceTree = "<group>"; };
 		17E4EB1429DDB86A006579D7 /* Pixellari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixellari.ttf; sourceTree = "<group>"; };
+		D4B47A4329DDEDF0008E6330 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D4B47A4529DDEE01008E6330 /* ChatOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOption.swift; sourceTree = "<group>"; };
+		D4B47A4729DDEE60008E6330 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 				17E4EB1629DDCAE1006579D7 /* Fonts */,
 				17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */,
 				17E4EAFE29DDA95B006579D7 /* ContentView.swift */,
+				D4B47A4229DDEDD3008E6330 /* Components */,
 				17E4EB1729DDCAF0006579D7 /* View */,
 				17E4EB0029DDA95C006579D7 /* Assets.xcassets */,
 				17E4EB0229DDA95C006579D7 /* Preview Content */,
@@ -92,9 +101,20 @@
 			isa = PBXGroup;
 			children = (
 				17E4EB1229DDB512006579D7 /* DontBuyView.swift */,
+				D4B47A4729DDEE60008E6330 /* PetView.swift */,
 				17E4EB0B29DDAA8D006579D7 /* MinigameOverView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D4B47A4229DDEDD3008E6330 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D4B47A4329DDEDF0008E6330 /* Message.swift */,
+				D4B47A4529DDEE01008E6330 /* ChatOption.swift */,
+				D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,10 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */,
 				17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */,
 				17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */,
+				D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */,
+				D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */,
 				17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */,
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
+				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bibiaChallenge/Preview Content\"";
-				DEVELOPMENT_TEAM = 749Q737TF5;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bibiaChallenge/Info.plist;
@@ -310,6 +334,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -331,7 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bibiaChallenge/Preview Content\"";
-				DEVELOPMENT_TEAM = 749Q737TF5;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bibiaChallenge/Info.plist;
@@ -340,6 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,7 +375,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
