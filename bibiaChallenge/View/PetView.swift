@@ -31,6 +31,8 @@ struct PetView: View {
                     Spacer()
                 }
                 .frame(width: 704.62)
+                .padding(.trailing, 120)
+                .padding(.top, 80)
                 Spacer()
                 HStack(spacing: 102) {
                     PetActionButton(isActive: true, formula: formulas[0])

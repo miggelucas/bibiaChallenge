@@ -116,7 +116,6 @@
 				D4B47A5529DE0EB4008E6330 /* InitialView.swift */,
 				D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */,
 				D4B47A4729DDEE60008E6330 /* PetView.swift */,
-				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
 				D4B47A4D29DDFA66008E6330 /* Modais */,
 			);
 			path = View;
@@ -125,6 +124,7 @@
 		D4B47A4229DDEDD3008E6330 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
 				D4B47A4329DDEDF0008E6330 /* Message.swift */,
 				D4B47A4529DDEE01008E6330 /* ChatOption.swift */,
 				D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */,

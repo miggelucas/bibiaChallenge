@@ -36,7 +36,7 @@ struct InitialView: View {
                             }
                         }
                     }.background(Image("Start Wallpaper"))
-                }
+                }.navigationBarBackButtonHidden(true)
     }
 }
 
