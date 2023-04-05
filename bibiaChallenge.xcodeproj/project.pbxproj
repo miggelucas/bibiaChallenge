@@ -19,10 +19,12 @@
 		D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4529DDEE01008E6330 /* ChatOption.swift */; };
 		D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4729DDEE60008E6330 /* PetView.swift */; };
 		D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */; };
-		D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4B29DDFA63008E6330 /* TestHome.swift */; };
+		D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */; };
 		D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4E29DDFE08008E6330 /* homeBtn.swift */; };
 		D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5029DDFF73008E6330 /* ScoreManager.swift */; };
 		D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5229DE08D2008E6330 /* ActivityManager.swift */; };
+		D4B47A5629DE0EB4008E6330 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5529DE0EB4008E6330 /* InitialView.swift */; };
+		D4B47A5829DE11B9008E6330 /* InitialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5729DE11B9008E6330 /* InitialButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +42,12 @@
 		D4B47A4529DDEE01008E6330 /* ChatOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOption.swift; sourceTree = "<group>"; };
 		D4B47A4729DDEE60008E6330 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
 		D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetActionButton.swift; sourceTree = "<group>"; };
-		D4B47A4B29DDFA63008E6330 /* TestHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHome.swift; sourceTree = "<group>"; };
+		D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomeView.swift; sourceTree = "<group>"; };
 		D4B47A4E29DDFE08008E6330 /* homeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeBtn.swift; sourceTree = "<group>"; };
 		D4B47A5029DDFF73008E6330 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 		D4B47A5229DE08D2008E6330 /* ActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
+		D4B47A5529DE0EB4008E6330 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		D4B47A5729DE11B9008E6330 /* InitialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +113,8 @@
 		17E4EB1729DDCAF0006579D7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D4B47A4B29DDFA63008E6330 /* TestHome.swift */,
+				D4B47A5529DE0EB4008E6330 /* InitialView.swift */,
+				D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */,
 				D4B47A4729DDEE60008E6330 /* PetView.swift */,
 				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
 				D4B47A4D29DDFA66008E6330 /* Modais */,
@@ -123,6 +128,7 @@
 				D4B47A4329DDEDF0008E6330 /* Message.swift */,
 				D4B47A4529DDEE01008E6330 /* ChatOption.swift */,
 				D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */,
+				D4B47A5729DE11B9008E6330 /* InitialButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -217,6 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B47A5829DE11B9008E6330 /* InitialButton.swift in Sources */,
+				D4B47A5629DE0EB4008E6330 /* InitialView.swift in Sources */,
 				D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */,
 				17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */,
 				17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */,
@@ -224,7 +232,7 @@
 				D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */,
 				17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */,
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
-				D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */,
+				D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
 				D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */,
 				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
 				D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */,
