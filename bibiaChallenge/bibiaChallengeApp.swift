@@ -10,10 +10,14 @@ import SwiftUI
 @main
 struct bibiaChallengeApp: App {
     let scoreManager = ScoreManager()
+    let gameSettings = GameSettings()
     
     var body: some Scene {
         WindowGroup {
-            PetView(meloMood: .happy).environmentObject(scoreManager)
+            TestHome()
+                .environmentObject(scoreManager)
+                .environmentObject(gameSettings)
+
         }
     }
 }

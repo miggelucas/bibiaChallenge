@@ -13,14 +13,14 @@ struct PetView: View {
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject var scoreManager: ScoreManager // guarda score de comidas
 
-    var isActive = false
+    @EnvironmentObject var gameSettings: GameSettings
     var meloMood: meloMood // dps vai ser binding
     
     var body: some View {
         let formulas = [
             PetActionFormula(action: {}, color: 0, text: "Food \n \(scoreManager.score)"),
             PetActionFormula(action: {}, color: 1, text: "Play!"),
-            PetActionFormula(action: {}, color: 2, text: "Talk!")
+            PetActionFormula(action: {gameSettings.isTalkEnabled.toggle()}, color: 2, text: "Talk!")
         ]
         
          return ZStack {
@@ -33,9 +33,9 @@ struct PetView: View {
                 .frame(width: 704.62)
                 Spacer()
                 HStack(spacing: 102) {
-                    PetActionButton(isActive: isActive, formula: formulas[0])
-                    PetActionButton(isActive: isActive, formula: formulas[1])
-                    PetActionButton(isActive: isActive, formula: formulas[2])
+                    PetActionButton(isActive: true, formula: formulas[0])
+                    PetActionButton(isActive: gameSettings.isPlayEnabled, formula: formulas[1])
+                    PetActionButton(isActive: gameSettings.isTalkEnabled, formula: formulas[2])
                 }
                 
             }.background(
@@ -75,9 +75,9 @@ enum meloMood: View {
     }
 }
 
-struct PetView_Previews: PreviewProvider {
-    
-    static var previews: some View {
-        PetView(meloMood: .happy)
-    }
-}
+//struct PetView_Previews: PreviewProvider {
+//    
+//    static var previews: some View {
+//        PetView(meloMood: .happy)
+//    }
+//}

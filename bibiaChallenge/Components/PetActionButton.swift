@@ -24,7 +24,7 @@ struct PetActionButton: View {
             ZStack {
                 Circle()
                     .frame(width: formula.color == 1 ? 210 : 160, height: formula.color == 1 ? 210 : 160)
-                    .foregroundColor(isActive ? .gray : formula.color==0 ? Color("orange") : formula.color == 1 ? Color("red") : Color("pink"))
+                    .foregroundColor(isActive ? formula.color==0 ? Color("orange") : formula.color == 1 ? Color("red") : Color("pink") : .gray)
                 Text(formula.text)
                     .foregroundColor(.white)
                     .font(

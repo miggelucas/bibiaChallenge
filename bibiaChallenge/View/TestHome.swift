@@ -9,9 +9,12 @@ import Foundation
 import SwiftUI
 
 struct TestHome: View {
+    @EnvironmentObject var scoreManager: ScoreManager // guarda score de comidas
+    @EnvironmentObject var gameSettings: GameSettings
+
     var body: some View {
         NavigationStack {
-                NavigationLink(destination: PetView(meloMood: .angry)) {
+            NavigationLink(destination: PetView(gameSettings: _gameSettings, meloMood: .angry)) {
                             Image(systemName: "globe")
                                 .imageScale(.large)
                                 .foregroundColor(.accentColor)
