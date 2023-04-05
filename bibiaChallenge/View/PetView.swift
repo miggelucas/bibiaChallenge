@@ -11,18 +11,19 @@ import SwiftUI
 // view
 struct PetView: View {
     @Environment(\.dismiss) private var dismiss
+    @EnvironmentObject var scoreManager: ScoreManager // guarda score de comidas
 
     var isActive = false
     var meloMood: meloMood // dps vai ser binding
     
-    var formulas: [PetActionFormula] = [
-        PetActionFormula(action: {}, color: 0, text: "Food \n 23"),
-        PetActionFormula(action: {}, color: 1, text: "Play!"),
-        PetActionFormula(action: {}, color: 2, text: "Talk!")
-    ]
-    
     var body: some View {
-        ZStack {
+        let formulas = [
+            PetActionFormula(action: {}, color: 0, text: "Food \n \(scoreManager.score)"),
+            PetActionFormula(action: {}, color: 1, text: "Play!"),
+            PetActionFormula(action: {}, color: 2, text: "Talk!")
+        ]
+        
+         return ZStack {
             VStack {
                 HStack(spacing: 90) {
                     homeBtn(dismiss: dismiss)

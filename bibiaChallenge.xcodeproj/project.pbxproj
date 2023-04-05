@@ -21,6 +21,7 @@
 		D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */; };
 		D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4B29DDFA63008E6330 /* TestHome.swift */; };
 		D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4E29DDFE08008E6330 /* homeBtn.swift */; };
+		D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5029DDFF73008E6330 /* ScoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetActionButton.swift; sourceTree = "<group>"; };
 		D4B47A4B29DDFA63008E6330 /* TestHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHome.swift; sourceTree = "<group>"; };
 		D4B47A4E29DDFE08008E6330 /* homeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeBtn.swift; sourceTree = "<group>"; };
+		D4B47A5029DDFF73008E6330 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				17E4EB0E29DDB006006579D7 /* Info.plist */,
 				17E4EB1629DDCAE1006579D7 /* Fonts */,
 				17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */,
+				D4B47A5029DDFF73008E6330 /* ScoreManager.swift */,
 				17E4EAFE29DDA95B006579D7 /* ContentView.swift */,
 				D4B47A4229DDEDD3008E6330 /* Components */,
 				17E4EB1729DDCAF0006579D7 /* View */,
@@ -212,6 +215,7 @@
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
 				D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */,
 				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
+				D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */,
 				D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
