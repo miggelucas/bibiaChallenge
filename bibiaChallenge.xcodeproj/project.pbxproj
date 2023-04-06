@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4ADE7529DDF65D00689BB9 /* DiaCumpridoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7429DDF65D00689BB9 /* DiaCumpridoView.swift */; };
 		17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */; };
 		17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EAFE29DDA95B006579D7 /* ContentView.swift */; };
 		17E4EB0129DDA95C006579D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB0029DDA95C006579D7 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D4ADE7429DDF65D00689BB9 /* DiaCumpridoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaCumpridoView.swift; sourceTree = "<group>"; };
 		17E4EAF929DDA95B006579D7 /* bibiaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bibiaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bibiaChallengeApp.swift; sourceTree = "<group>"; };
 		17E4EAFE29DDA95B006579D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				17E4EB1229DDB512006579D7 /* DontBuyView.swift */,
 				17E4EB0B29DDAA8D006579D7 /* MinigameOverView.swift */,
+				0D4ADE7429DDF65D00689BB9 /* DiaCumpridoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4ADE7529DDF65D00689BB9 /* DiaCumpridoView.swift in Sources */,
 				17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */,
 				17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */,
 				17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */,
