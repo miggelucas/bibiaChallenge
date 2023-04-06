@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4ADE7B29DF099B00689BB9 /* TokTokTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */; };
 		17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */; };
 		17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EAFE29DDA95B006579D7 /* ContentView.swift */; };
 		17E4EB0129DDA95C006579D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB0029DDA95C006579D7 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokTokTransitionView.swift; sourceTree = "<group>"; };
 		17E4EAF929DDA95B006579D7 /* bibiaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bibiaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bibiaChallengeApp.swift; sourceTree = "<group>"; };
 		17E4EAFE29DDA95B006579D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				D4B47A4B29DDFA63008E6330 /* TestHome.swift */,
 				D4B47A4729DDEE60008E6330 /* PetView.swift */,
 				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
+				0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */,
 				D4B47A4D29DDFA66008E6330 /* Modais */,
 			);
 			path = View;
@@ -226,6 +229,7 @@
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
 				D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */,
 				D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */,
+				0D4ADE7B29DF099B00689BB9 /* TokTokTransitionView.swift in Sources */,
 				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
 				D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */,
 				D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */,
