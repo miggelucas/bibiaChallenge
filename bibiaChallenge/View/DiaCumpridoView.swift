@@ -10,7 +10,7 @@ import SwiftUI
 struct DiaCumpridoView: View {
     var body: some View {
         ZStack {
-            Image ("smilesBackground")
+            Image ("SmilesBackground")
                 .resizable()
             BlueCircle()
                 .padding(.leading, 186)
@@ -39,8 +39,7 @@ struct BlueCircle: View {
             VStack (spacing: 0){
                 Image("ebaaa!")
                 Text("Você completou um \n dia de compras :)")
-                    //alterar fonte para Sora
-                    .font(.custom("pixellari", size: 44))
+                    .font(.custom("Sora-SemiBold", size: 44))
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
                 
