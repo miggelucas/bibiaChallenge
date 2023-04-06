@@ -23,16 +23,7 @@ struct InitialView: View {
                             NavigationLink {
                                 TestHomeView()
                             } label: {
-                                ZStack {
-                                    Rectangle()
-                                        .frame(width: 376.04, height: 84)
-                                    Text("Novo jogo")
-                                        .foregroundColor(.white)
-                                        .font(
-                                            .custom("daydream", size: 24))
-                                        .fontWeight(.thin)
-                                        .multilineTextAlignment(.center)
-                                }
+                                mainButton(text: "Novo jogo")
                             }
                         }
                     }.background(Image("Start Wallpaper"))
