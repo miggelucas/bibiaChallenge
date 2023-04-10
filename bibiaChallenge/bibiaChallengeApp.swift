@@ -14,7 +14,7 @@ struct bibiaChallengeApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TestHome()
+            InitialView()
                 .environmentObject(scoreManager)
                 .environmentObject(gameSettings)
 

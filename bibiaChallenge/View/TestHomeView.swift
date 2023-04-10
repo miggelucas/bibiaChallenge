@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct TestHome: View {
+struct TestHomeView: View {
     @EnvironmentObject var scoreManager: ScoreManager // guarda score de comidas
     @EnvironmentObject var gameSettings: GameSettings
 
@@ -25,6 +25,6 @@ struct TestHome: View {
 
 struct TestHome_Previews: PreviewProvider {
     static var previews: some View {
-        TestHome()
+        TestHomeView()
     }
 }
