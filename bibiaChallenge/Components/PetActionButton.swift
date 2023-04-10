@@ -14,13 +14,14 @@ struct PetActionFormula {
     var text: String
 }
 
-struct PetActionButton: View {
+struct PetActionButton<TargetView:View>: View {
     var isActive: Bool
     
+    var destination: TargetView
     var formula: PetActionFormula
     
     var body: some View {
-        Button(action: formula.action, label: {
+        NavigationLink(destination: destination, label: {
             ZStack {
                 Circle()
                     .frame(width: formula.color == 1 ? 210 : 160, height: formula.color == 1 ? 210 : 160)
@@ -31,7 +32,9 @@ struct PetActionButton: View {
                         .custom("daydream", size: 36))
                     .fontWeight(.thin)
                     .multilineTextAlignment(.center)
-            }
-        })
+            }.navigationBarBackButtonHidden(true)
+        }).onTapGesture {
+            isActive.toggle()
+        }
     }
 }
