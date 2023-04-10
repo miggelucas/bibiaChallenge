@@ -10,10 +10,11 @@ import SwiftUI
 
 struct homeBtn: View {
     let dismiss: DismissAction
+    var imageName: String
     
     var body: some View {
         Button(action: {dismiss()}, label: {
-            Image("backhome icon").frame(width: 131, height: 131)})
+            Image(imageName).frame(width: 131, height: 131)})
     }
 }
 

@@ -13,6 +13,7 @@ struct PetView: View {
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject var scoreManager: ScoreManager // guarda score de comidas
 
+
     @EnvironmentObject var gameSettings: GameSettings
     var meloMood: meloMood // dps vai ser binding
     
@@ -26,16 +27,18 @@ struct PetView: View {
          return ZStack {
             VStack {
                 HStack(spacing: 90) {
-                    homeBtn(dismiss: dismiss)
+                    homeBtn(dismiss: dismiss, imageName: "backhome icon")
                     Image("Pet header")
                     Spacer()
                 }
                 .frame(width: 704.62)
+                .padding(.trailing, 120)
+                .padding(.top, 80)
                 Spacer()
                 HStack(spacing: 102) {
-                    PetActionButton(isActive: true, formula: formulas[0])
-                    PetActionButton(isActive: gameSettings.isPlayEnabled, formula: formulas[1])
-                    PetActionButton(isActive: gameSettings.isTalkEnabled, formula: formulas[2])
+                    PetActionButton(isActive: true, destination: ChatView(), formula: formulas[0])
+                    PetActionButton(isActive: gameSettings.isPlayEnabled, destination: ChatView(), formula: formulas[1])
+                    PetActionButton(isActive: gameSettings.isTalkEnabled, destination: ChatView(), formula: formulas[2])
                 }
                 
             }.background(
@@ -43,7 +46,7 @@ struct PetView: View {
                     .scaledToFit()
             )
             meloMood
-        }.navigationBarBackButtonHidden(true)
+        }
     }
 
 }
