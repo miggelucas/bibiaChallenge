@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4ADE7729DE6A8C00689BB9 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7629DE6A8C00689BB9 /* Sora-SemiBold.ttf */; };
+		0D4ADE7929DE6B9C00689BB9 /* DiaCumpridoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */; };
 		17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */; };
 		17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EAFE29DDA95B006579D7 /* ContentView.swift */; };
 		17E4EB0129DDA95C006579D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB0029DDA95C006579D7 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D4ADE7629DE6A8C00689BB9 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-SemiBold.ttf"; sourceTree = "<group>"; };
+		0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaCumpridoView.swift; sourceTree = "<group>"; };
 		17E4EAF929DDA95B006579D7 /* bibiaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bibiaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bibiaChallengeApp.swift; sourceTree = "<group>"; };
 		17E4EAFE29DDA95B006579D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 			children = (
 				17E4EB0F29DDB212006579D7 /* Daydream.ttf */,
 				17E4EB1429DDB86A006579D7 /* Pixellari.ttf */,
+				0D4ADE7629DE6A8C00689BB9 /* Sora-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -118,6 +123,8 @@
 				D4B47A5529DE0EB4008E6330 /* InitialView.swift */,
 				D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */,
 				D4B47A4729DDEE60008E6330 /* PetView.swift */,
+				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
+				0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */,
 				D4B47A5929DE416E008E6330 /* ChatView.swift */,
 				D4B47A4D29DDFA66008E6330 /* Modais */,
 			);
@@ -216,6 +223,7 @@
 				17E4EB0129DDA95C006579D7 /* Assets.xcassets in Resources */,
 				17E4EB1029DDB212006579D7 /* Daydream.ttf in Resources */,
 				17E4EB1529DDB86B006579D7 /* Pixellari.ttf in Resources */,
+				0D4ADE7729DE6A8C00689BB9 /* Sora-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +244,9 @@
 				D4B47A5A29DE416E008E6330 /* ChatView.swift in Sources */,
 				17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */,
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
-				D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
+        0D4ADE7929DE6B9C00689BB9 /* DiaCumpridoView.swift in Sources */,
+				D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */,
+        D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
 				D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */,
 				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
 				D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */,
