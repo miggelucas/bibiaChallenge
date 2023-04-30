@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+    0D4ADE7B29DF099B00689BB9 /* TokTokTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */; };
+    0D4ADE7729DE6A8C00689BB9 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7629DE6A8C00689BB9 /* Sora-SemiBold.ttf */; };
+		0D4ADE7929DE6B9C00689BB9 /* DiaCumpridoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */; };
 		17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */; };
 		17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EAFE29DDA95B006579D7 /* ContentView.swift */; };
 		17E4EB0129DDA95C006579D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB0029DDA95C006579D7 /* Assets.xcassets */; };
@@ -15,9 +18,23 @@
 		17E4EB1029DDB212006579D7 /* Daydream.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB0F29DDB212006579D7 /* Daydream.ttf */; };
 		17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EB1229DDB512006579D7 /* DontBuyView.swift */; };
 		17E4EB1529DDB86B006579D7 /* Pixellari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB1429DDB86A006579D7 /* Pixellari.ttf */; };
+		D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4329DDEDF0008E6330 /* Message.swift */; };
+		D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4529DDEE01008E6330 /* ChatOption.swift */; };
+		D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4729DDEE60008E6330 /* PetView.swift */; };
+		D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */; };
+		D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */; };
+		D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4E29DDFE08008E6330 /* homeBtn.swift */; };
+		D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5029DDFF73008E6330 /* ScoreManager.swift */; };
+		D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5229DE08D2008E6330 /* ActivityManager.swift */; };
+		D4B47A5629DE0EB4008E6330 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5529DE0EB4008E6330 /* InitialView.swift */; };
+		D4B47A5829DE11B9008E6330 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5729DE11B9008E6330 /* MainButton.swift */; };
+		D4B47A5A29DE416E008E6330 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5929DE416E008E6330 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+    0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokTokTransitionView.swift; sourceTree = "<group>"; };
+    0D4ADE7629DE6A8C00689BB9 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-SemiBold.ttf"; sourceTree = "<group>"; };
+		0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaCumpridoView.swift; sourceTree = "<group>"; };
 		17E4EAF929DDA95B006579D7 /* bibiaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bibiaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bibiaChallengeApp.swift; sourceTree = "<group>"; };
 		17E4EAFE29DDA95B006579D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +45,17 @@
 		17E4EB0F29DDB212006579D7 /* Daydream.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Daydream.ttf; sourceTree = "<group>"; };
 		17E4EB1229DDB512006579D7 /* DontBuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DontBuyView.swift; sourceTree = "<group>"; };
 		17E4EB1429DDB86A006579D7 /* Pixellari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixellari.ttf; sourceTree = "<group>"; };
+		D4B47A4329DDEDF0008E6330 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D4B47A4529DDEE01008E6330 /* ChatOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOption.swift; sourceTree = "<group>"; };
+		D4B47A4729DDEE60008E6330 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetActionButton.swift; sourceTree = "<group>"; };
+		D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomeView.swift; sourceTree = "<group>"; };
+		D4B47A4E29DDFE08008E6330 /* homeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeBtn.swift; sourceTree = "<group>"; };
+		D4B47A5029DDFF73008E6330 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
+		D4B47A5229DE08D2008E6330 /* ActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
+		D4B47A5529DE0EB4008E6330 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		D4B47A5729DE11B9008E6330 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		D4B47A5929DE416E008E6330 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +88,12 @@
 		17E4EAFB29DDA95B006579D7 /* bibiaChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				17E4EB0E29DDB006006579D7 /* Info.plist */,
 				17E4EB1629DDCAE1006579D7 /* Fonts */,
-				17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */,
+				17E4EB0E29DDB006006579D7 /* Info.plist */,
 				17E4EAFE29DDA95B006579D7 /* ContentView.swift */,
+				17E4EAFC29DDA95B006579D7 /* bibiaChallengeApp.swift */,
+				D4B47A5429DE0902008E6330 /* Managers */,
+				D4B47A4229DDEDD3008E6330 /* Components */,
 				17E4EB1729DDCAF0006579D7 /* View */,
 				17E4EB0029DDA95C006579D7 /* Assets.xcassets */,
 				17E4EB0229DDA95C006579D7 /* Preview Content */,
@@ -84,6 +114,7 @@
 			children = (
 				17E4EB0F29DDB212006579D7 /* Daydream.ttf */,
 				17E4EB1429DDB86A006579D7 /* Pixellari.ttf */,
+				0D4ADE7629DE6A8C00689BB9 /* Sora-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -91,10 +122,46 @@
 		17E4EB1729DDCAF0006579D7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D4B47A5529DE0EB4008E6330 /* InitialView.swift */,
+				D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */,
+				D4B47A4729DDEE60008E6330 /* PetView.swift */,
+				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
+				0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */,
+        0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */,
+				D4B47A5929DE416E008E6330 /* ChatView.swift */,
+				D4B47A4D29DDFA66008E6330 /* Modais */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4B47A4229DDEDD3008E6330 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
+				D4B47A4329DDEDF0008E6330 /* Message.swift */,
+				D4B47A4529DDEE01008E6330 /* ChatOption.swift */,
+				D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */,
+				D4B47A5729DE11B9008E6330 /* MainButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D4B47A4D29DDFA66008E6330 /* Modais */ = {
+			isa = PBXGroup;
+			children = (
 				17E4EB1229DDB512006579D7 /* DontBuyView.swift */,
 				17E4EB0B29DDAA8D006579D7 /* MinigameOverView.swift */,
 			);
-			path = View;
+			path = Modais;
+			sourceTree = "<group>";
+		};
+		D4B47A5429DE0902008E6330 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D4B47A5229DE08D2008E6330 /* ActivityManager.swift */,
+				D4B47A5029DDFF73008E6330 /* ScoreManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +226,7 @@
 				17E4EB0129DDA95C006579D7 /* Assets.xcassets in Resources */,
 				17E4EB1029DDB212006579D7 /* Daydream.ttf in Resources */,
 				17E4EB1529DDB86B006579D7 /* Pixellari.ttf in Resources */,
+				0D4ADE7729DE6A8C00689BB9 /* Sora-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,10 +237,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B47A5829DE11B9008E6330 /* MainButton.swift in Sources */,
+				D4B47A5629DE0EB4008E6330 /* InitialView.swift in Sources */,
+				D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */,
 				17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */,
 				17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */,
+				D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */,
+				D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */,
+				D4B47A5A29DE416E008E6330 /* ChatView.swift in Sources */,
 				17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */,
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
+        0D4ADE7929DE6B9C00689BB9 /* DiaCumpridoView.swift in Sources */,
+				D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */,
+        D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
+				D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */,
+				0D4ADE7B29DF099B00689BB9 /* TokTokTransitionView.swift in Sources */,
+				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
+				D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */,
+				D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bibiaChallenge/Preview Content\"";
-				DEVELOPMENT_TEAM = 749Q737TF5;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bibiaChallenge/Info.plist;
@@ -310,6 +392,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +402,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -331,7 +414,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bibiaChallenge/Preview Content\"";
-				DEVELOPMENT_TEAM = 749Q737TF5;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bibiaChallenge/Info.plist;
@@ -340,6 +423,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,7 +433,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct bibiaChallengeApp: App {
+    let scoreManager = ScoreManager()
+    let gameSettings = GameSettings()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InitialView()
+                .environmentObject(scoreManager)
+                .environmentObject(gameSettings)
+
         }
     }
 }
